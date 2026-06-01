@@ -2660,7 +2660,7 @@ FIREBASE: `))}restoreState_(){this.tryAuth(),this.tryAppCheck();for(const e of t
     <div class="page" style="display:flex;flex-direction:column;justify-content:center;min-height:100dvh;padding:32px 24px;">
 
       <div class="text-center" style="margin-bottom:32px;">
-        <img src="/logo-light.png" alt="Heebee Coffee" style="width:80px;height:80px;object-fit:contain;margin-bottom:12px;" />
+        <img src="./logo-light.png" alt="Heebee Coffee" style="width:80px;height:80px;object-fit:contain;margin-bottom:12px;" />
         <h1 style="font-size:1.4rem;color:#fff;margin-bottom:4px;">Join the Team</h1>
         <p class="text-dim text-sm">Your manager will approve your account</p>
       </div>
@@ -2721,7 +2721,7 @@ FIREBASE: `))}restoreState_(){this.tryAuth(),this.tryAppCheck();for(const e of t
 
       <!-- Logo / Brand -->
       <div class="text-center" style="margin-bottom:40px;">
-        <img src="/logo-light.png" alt="Heebee Coffee" style="width:120px;height:120px;object-fit:contain;margin-bottom:12px;" />
+        <img src="./logo-light.png" alt="Heebee Coffee" style="width:120px;height:120px;object-fit:contain;margin-bottom:12px;" />
         <h1 style="font-size:1.6rem;color:#fff;margin-bottom:4px;">Heebee Beans</h1>
         <p class="text-dim text-sm">Staff Recognition System</p>
       </div>
@@ -3531,4 +3531,4 @@ FIREBASE: `))}restoreState_(){this.tryAuth(),this.tryAppCheck();for(const e of t
   </svg>`}function y_(){return`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
     <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
   </svg>`}"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/sw.js").catch(()=>{})});async function fr(){try{await Uu(gg)}catch{}const n=document.getElementById("app"),e=lc();if(!e){bc(n,b_);return}dc();let t={};try{t=await yi()}catch{}try{const[i,s]=await Promise.all([gn(),At()]);Object.keys(i).length===0&&await Promise.all(fc.map(r=>ql(r.id,r))),Object.keys(s).length===0&&await Promise.all(pc.map(r=>jl(r.id,r)))}catch{}h_(n,e,t,w_)}function b_(n){dc(),fr()}function w_(){Rg(),fr()}fr();
-//# sourceMappingURL=index-CN9Us3sf.js.map
+//# sourceMappingURL=index-BpxVIIpa.js.map
