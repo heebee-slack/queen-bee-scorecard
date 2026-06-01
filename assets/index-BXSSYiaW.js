@@ -2904,10 +2904,10 @@ FIREBASE: `))}restoreState_(){this.tryAuth(),this.tryAppCheck();for(const e of t
           <p class="text-dim text-xs">${o} · ${Et(n.timestamp)}</p>
         </div>
       </div>
-      <button class="btn btn-ghost btn-revoke-request text-sm" data-id="${n.id}"
-        style="padding:6px 12px;font-size:0.78rem;color:var(--text-secondary);border-color:rgba(255,69,58,0.3);">
-        Request Revoke
-      </button>
+      ${Date.now()-n.timestamp<864e5?`<button class="btn btn-ghost btn-revoke-request text-sm" data-id="${n.id}"
+            style="padding:6px 12px;font-size:0.78rem;color:var(--text-secondary);border-color:rgba(255,69,58,0.3);">
+            Request Revoke
+          </button>`:'<p style="font-size:0.72rem;color:var(--text-tertiary);padding:4px 0;">⏰ Revoke window closed (24hr passed)</p>'}
     </div>
   `}function qg(n,e={},t={}){var a;const i=le[n.bean_type]||{icon:"🫘",label:n.bean_type},s=e[n.receiver_id],r=s?s.name:n.giver_name||"Staff",o=((a=t[n.action_id])==null?void 0:a.name)||n.action_id||"Award";return`
     <div class="lb-row" style="margin-bottom:8px;">
@@ -3411,4 +3411,4 @@ FIREBASE: `))}restoreState_(){this.tryAuth(),this.tryAppCheck();for(const e of t
   </svg>`}function f_(){return`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
     <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
   </svg>`}"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/sw.js").catch(()=>{})});async function or(){try{await Du(hg)}catch{}const n=document.getElementById("app"),e=rc();if(!e){_c(n,p_);return}ac();let t={};try{t=await ic()}catch{}try{const[i,s]=await Promise.all([gn(),At()]);Object.keys(i).length===0&&await Promise.all(dc.map(r=>Fl(r.id,r))),Object.keys(s).length===0&&await Promise.all(uc.map(r=>Ul(r.id,r)))}catch{}o_(n,e,t,m_)}function p_(n){ac(),or()}function m_(){Sg(),or()}or();
-//# sourceMappingURL=index-Bpf1Ilge.js.map
+//# sourceMappingURL=index-BXSSYiaW.js.map
